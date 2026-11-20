@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "title": "خدمات — بوابة الخدمات الإلكترونية",
+    "description": "قالب بوابة خدمات إلكترونية ثنائية اللغة (عربي/إنجليزي) مبني بـ Next.js و TypeScript و Tailwind CSS."
+  },
+  "nav": {
+    "brand": "خدمات",
+    "services": "الخدمات",
+    "requests": "طلباتي",
+    "skip": "تخطَّ إلى المحتوى الرئيسي",
+    "switchLanguage": "تغيير اللغة"
+  },
+  "home": {
+    "eyebrow": "خدمات رقمية موحّدة",
+    "title": "كل الخدمات التي تحتاجها في مكان واحد",
+    "subtitle": "قدّم طلبات التراخيص، واحجز المرافق، وتابع طلباتك إلكترونيًا بالعربية أو الإنجليزية.",
+    "statsServices": "خدمة إلكترونية",
+    "statsCategories": "تصنيفات",
+    "statsDays": "متوسط أيام المعالجة",
+    "catalogTitle": "دليل الخدمات"
+  },
+  "catalog": {
+    "searchLabel": "البحث في الخدمات",
+    "searchPlaceholder": "ابحث باسم الخدمة…",
+    "allCategories": "الكل",
+    "resultCount": "{count} خدمة",
+    "empty": "لا توجد خدمات مطابقة لبحثك.",
+    "days": "{count} أيام عمل",
+    "free": "مجانية",
+    "fee": "{amount} ريال",
+    "details": "عرض التفاصيل"
+  },
+  "categories": {
+    "licensing": "التراخيص",
+    "facilities": "المرافق",
+    "memberships": "العضويات",
+    "investment": "الاستثمار"
+  },
+  "service": {
+    "back": "العودة إلى الخدمات",
+    "overview": "نبذة عن الخدمة",
+    "requirements": "المتطلبات",
+    "duration": "مدة المعالجة",
+    "fees": "الرسوم",
+    "beneficiaries": "المستفيدون",
+    "individuals": "الأفراد",
+    "organizations": "المنشآت",
+    "apply": "ابدأ الطلب"
+  },
+  "wizard": {
+    "title": "التقديم على {service}",
+    "steps": {
+      "applicant": "بيانات مقدم الطلب",
+      "details": "تفاصيل الطلب",
+      "attachments": "المرفقات",
+      "review": "المراجعة والإرسال"
+    },
+    "stepOf": "الخطوة {current} من {total}",
+    "next": "التالي",
+    "back": "السابق",
+    "submit": "إرسال الطلب",
+    "submitting": "جارٍ الإرسال…",
+    "fields": {
+      "fullName": "الاسم الكامل",
+      "nationalId": "رقم الهوية / الإقامة",
+      "nationalIdHint": "10 أرقام تبدأ بـ 1 أو 2",
+      "email": "البريد الإلكتروني",
+      "mobile": "رقم الجوال",
+      "mobileHint": "الصيغة: 05XXXXXXXX",
+      "entityName": "اسم المنشأة / النادي",
+      "city": "المدينة",
+      "cityPlaceholder": "اختر المدينة",
+      "startDate": "تاريخ البدء المفضّل",
+      "description": "وصف الطلب",
+      "descriptionHint": "20 حرفًا على الأقل",
+      "attachments": "المستندات الداعمة",
+      "attachmentsHint": "PDF أو JPG أو PNG — حتى 5 ميجابايت للملف، 5 ملفات كحد أقصى",
+      "chooseFiles": "اختر الملفات",
+      "removeFile": "حذف {name}",
+      "declaration": "أُقرّ بأن جميع البيانات المقدّمة صحيحة ومكتملة."
+    },
+    "cities": {
+      "riyadh": "الرياض",
+      "jeddah": "جدة",
+      "dammam": "الدمام",
+      "makkah": "مكة المكرمة",
+      "madinah": "المدينة المنورة"
+    },
+    "review": {
+      "intro": "يرجى مراجعة بياناتك قبل الإرسال.",
+      "edit": "تعديل"
+    },
+    "success": {
+      "title": "تم إرسال الطلب بنجاح",
+      "body": "رقم طلبك هو {id}. يمكنك متابعة حالته من صفحة طلباتي.",
+      "track": "متابعة طلباتي",
+      "home": "العودة إلى الخدمات"
+    }
+  },
+  "errors": {
+    "required": "هذا الحقل مطلوب",
+    "minName": "يرجى إدخال الاسم الكامل (3 أحرف على الأقل)",
+    "nationalId": "أدخل رقم هوية صحيحًا من 10 أرقام يبدأ بـ 1 أو 2",
+    "email": "أدخل بريدًا إلكترونيًا صحيحًا",
+    "mobile": "أدخل رقم جوال سعوديًا صحيحًا (05XXXXXXXX)",
+    "futureDate": "يجب أن يكون التاريخ اليوم أو بعده",
+    "minDescription": "يرجى كتابة 20 حرفًا على الأقل",
+    "attachmentsRequired": "أرفق مستندًا واحدًا على الأقل",
+    "attachmentsMax": "يمكنك إرفاق 5 ملفات كحد أقصى",
+    "fileType": "يُسمح فقط بملفات PDF و JPG و PNG",
+    "fileSize": "يجب ألا يتجاوز حجم الملف 5 ميجابايت",
+    "declaration": "يجب الموافقة على الإقرار"
+  },
+  "requests": {
+    "title": "طلباتي",
+    "subtitle": "تُحفظ الطلبات في متصفحك ضمن هذا العرض التجريبي.",
+    "filterLabel": "تصفية حسب الحالة",
+    "all": "الكل",
+    "number": "رقم الطلب",
+    "service": "الخدمة",
+    "date": "تاريخ التقديم",
+    "status": "الحالة",
+    "empty": "لا توجد لديك طلبات حتى الآن.",
+    "browse": "تصفح الخدمات",
+    "statuses": {
+      "submitted": "مُرسَل",
+      "in_review": "قيد المراجعة",
+      "approved": "مقبول",
+      "rejected": "مرفوض"
+    }
+  },
+  "footer": {
+    "note": "مشروع تجريبي — لا يتبع أي جهة حكومية."
+  }
+}

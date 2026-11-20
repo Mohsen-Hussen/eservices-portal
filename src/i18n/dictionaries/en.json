@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "title": "Khadamat — e-Services Portal",
+    "description": "A bilingual (Arabic/English) e-services portal starter built with Next.js, TypeScript and Tailwind CSS."
+  },
+  "nav": {
+    "brand": "Khadamat",
+    "services": "Services",
+    "requests": "My requests",
+    "skip": "Skip to main content",
+    "switchLanguage": "Switch language"
+  },
+  "home": {
+    "eyebrow": "Unified digital services",
+    "title": "Every service you need, in one place",
+    "subtitle": "Apply for licenses, book facilities and track your requests online, in Arabic or English.",
+    "statsServices": "e-services",
+    "statsCategories": "categories",
+    "statsDays": "average processing days",
+    "catalogTitle": "Service catalog"
+  },
+  "catalog": {
+    "searchLabel": "Search services",
+    "searchPlaceholder": "Search by service name…",
+    "allCategories": "All",
+    "resultCount": "{count} services",
+    "empty": "No services match your search.",
+    "days": "{count} working days",
+    "free": "Free",
+    "fee": "{amount} SAR",
+    "details": "View details"
+  },
+  "categories": {
+    "licensing": "Licensing",
+    "facilities": "Facilities",
+    "memberships": "Memberships",
+    "investment": "Investment"
+  },
+  "service": {
+    "back": "Back to services",
+    "overview": "Overview",
+    "requirements": "Requirements",
+    "duration": "Processing time",
+    "fees": "Fees",
+    "beneficiaries": "Beneficiaries",
+    "individuals": "Individuals",
+    "organizations": "Organizations",
+    "apply": "Start application"
+  },
+  "wizard": {
+    "title": "Apply for {service}",
+    "steps": {
+      "applicant": "Applicant",
+      "details": "Request details",
+      "attachments": "Attachments",
+      "review": "Review & submit"
+    },
+    "stepOf": "Step {current} of {total}",
+    "next": "Next",
+    "back": "Back",
+    "submit": "Submit request",
+    "submitting": "Submitting…",
+    "fields": {
+      "fullName": "Full name",
+      "nationalId": "National ID / Iqama",
+      "nationalIdHint": "10 digits, starting with 1 or 2",
+      "email": "Email",
+      "mobile": "Mobile number",
+      "mobileHint": "Format: 05XXXXXXXX",
+      "entityName": "Entity / club name",
+      "city": "City",
+      "cityPlaceholder": "Select a city",
+      "startDate": "Preferred start date",
+      "description": "Request description",
+      "descriptionHint": "At least 20 characters",
+      "attachments": "Supporting documents",
+      "attachmentsHint": "PDF, JPG or PNG — up to 5 MB each, max 5 files",
+      "chooseFiles": "Choose files",
+      "removeFile": "Remove {name}",
+      "declaration": "I confirm that the information provided is correct and complete."
+    },
+    "cities": {
+      "riyadh": "Riyadh",
+      "jeddah": "Jeddah",
+      "dammam": "Dammam",
+      "makkah": "Makkah",
+      "madinah": "Madinah"
+    },
+    "review": {
+      "intro": "Please review your information before submitting.",
+      "edit": "Edit"
+    },
+    "success": {
+      "title": "Request submitted successfully",
+      "body": "Your request number is {id}. You can track its status from My requests.",
+      "track": "Track my requests",
+      "home": "Back to services"
+    }
+  },
+  "errors": {
+    "required": "This field is required",
+    "minName": "Please enter your full name (at least 3 characters)",
+    "nationalId": "Enter a valid 10-digit ID starting with 1 or 2",
+    "email": "Enter a valid email address",
+    "mobile": "Enter a valid Saudi mobile number (05XXXXXXXX)",
+    "futureDate": "The date must be today or later",
+    "minDescription": "Please write at least 20 characters",
+    "attachmentsRequired": "Attach at least one document",
+    "attachmentsMax": "You can attach up to 5 files",
+    "fileType": "Only PDF, JPG and PNG files are allowed",
+    "fileSize": "Each file must be 5 MB or less",
+    "declaration": "You must confirm the declaration"
+  },
+  "requests": {
+    "title": "My requests",
+    "subtitle": "Requests are stored in your browser for this demo.",
+    "filterLabel": "Filter by status",
+    "all": "All",
+    "number": "Request no.",
+    "service": "Service",
+    "date": "Submitted on",
+    "status": "Status",
+    "empty": "You have no requests yet.",
+    "browse": "Browse services",
+    "statuses": {
+      "submitted": "Submitted",
+      "in_review": "In review",
+      "approved": "Approved",
+      "rejected": "Rejected"
+    }
+  },
+  "footer": {
+    "note": "Demo project — not affiliated with any government entity."
+  }
+}
