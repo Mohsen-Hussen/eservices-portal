@@ -12,6 +12,8 @@ Arabic-first RTL layout · Multi-step application wizard · Accessible forms · 
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?logo=tailwindcss&logoColor=white)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
+**[▶ Live demo](https://mohsen-hussen.github.io/eservices-portal/)**
+
 <img src="docs/screenshots/home-ar.png" alt="Arabic home page with service statistics" width="900" />
 
 </div>
@@ -99,6 +101,8 @@ npm run dev        # http://localhost:3000 → redirects to /ar or /en
 | `npm run lint`      | ESLint                                      |
 | `npm run typecheck` | Generate route types and run `tsc --noEmit` |
 | `npm run format`    | Format with Prettier                        |
+
+The live demo is a **static export** deployed to GitHub Pages by [`pages.yml`](.github/workflows/pages.yml) (`STATIC_EXPORT=true`). It drops the server-only proxy; `public/index.html` picks the language in the browser instead.
 
 ## Testing
 
